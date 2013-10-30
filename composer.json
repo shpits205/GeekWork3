@@ -1,0 +1,19 @@
+{
+    "name": "GeekWork3",
+    "authors": [
+        {
+            "name": "Nykolay",
+            "email": "n.s.shpitsia@hotmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "src\\": ""
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "2.4.*@dev",
+        "twig/twig": "1.14.*@dev"
+    }
+}
