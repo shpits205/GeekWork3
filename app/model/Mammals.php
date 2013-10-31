@@ -3,11 +3,12 @@
  * Created by JetBrains PhpStorm.
  * User: shpits
  * Date: 24.10.13
- * Time: 14:28
+ * Time: 14:27
  * To change this template use File | Settings | File Templates.
  */
+namespace app\model;
 
-class Birds extends AbstractBirds implements AnimalShowInfo
+class Mammals extends AbstractMammals implements AnimalShowInfo
 {
     public function setInfoAnimal($name, $weigh, $age)
     {
@@ -21,5 +22,10 @@ class Birds extends AbstractBirds implements AnimalShowInfo
         echo $this->getName() . "<br>";
         echo $this->getWeight() . "KG.<br>";
         echo $this->getAge() . "Year.<br>";
+    }
+
+    public function milk()
+    {
+        echo "Ooooh yes! <br>";
     }
 }

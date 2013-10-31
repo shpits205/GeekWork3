@@ -7,6 +7,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
+namespace app\model;
+
 interface AnimalShowInfo
 {
     public function showInfo();

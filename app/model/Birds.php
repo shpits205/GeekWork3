@@ -6,8 +6,9 @@
  * Time: 14:28
  * To change this template use File | Settings | File Templates.
  */
+namespace app\model;
 
-class Artiodactyls extends AbstractArtiodactyls implements AnimalShowInfo
+class Birds extends AbstractBirds implements AnimalShowInfo
 {
     public function setInfoAnimal($name, $weigh, $age)
     {

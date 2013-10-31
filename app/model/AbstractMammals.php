@@ -7,6 +7,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
+namespace app\model;
+
 abstract class AbstractMammals extends AbstractAnimal
 {
     private $presence_of_horns;
